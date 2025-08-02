@@ -1,15 +1,14 @@
 ## 1. Overview
+Please take a look my response in this question
 
 ## 2. Issues 
 ```
 01.
-**```
 interface WalletBalance { 
     currency: string; 
     amount: number; 
     // blockchain property not declared
 }
-```**
 
 02.
 In the inner **sortedBalances** function, the **lhsPriority** variable is not defined; however, it is used as a condition state (line 39).
